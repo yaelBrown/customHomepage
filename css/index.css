@@ -65,6 +65,12 @@ iframe {
   left: 50%;
 }
 
+.topRow, .botRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #aa {
   display: inline-block;
   background-color: red;
@@ -83,10 +89,4 @@ iframe {
 #dd {
   display: inline-block;
   background: blue;
-}
-
-.topRow, .botRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
